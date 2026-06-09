@@ -1,0 +1,201 @@
+{
+  "name": "Thomas Eubank",
+  "title": "Software Engineer",
+  "location": "Eubank, KY",
+  "email": "thomas.eubank516@gmail.com",
+  "resume": "Resume_5-26-26.pdf",
+  "about": "Hi, I'm Thomas Eubank. Computers have been my passion for as long as I can remember, and I'm eager to build a career around them. My experience centers on two things I genuinely enjoy: optimizing performance-critical C++ systems and shipping full-stack web applications that real teams depend on. I'm actively looking for software engineering opportunities — and if you have a project that Eubank Technologies could take on, reach out. Let's build something.",
+  "education": {
+    "institution": "Morehead State University",
+    "degree": "B.S. Computer Science",
+    "gpa": 3.6,
+    "graduated": "05/26",
+    "coursework": [
+      "Algorithms",
+      "Data Structures",
+      "Machine Learning",
+      "Network Security",
+      "Parallel Programming",
+      "Software Engineering",
+      "Computer Architecture"
+    ],
+    "honors": [
+      "MSU ACM Outstanding CS Student",
+      "MSU ACM Vice President"
+    ]
+  },
+  "skills": {
+    "languages": ["C++20", "C#", "C", "Python", "Java", "JavaScript", "SQL"],
+    "parallelAndHPC": ["OpenMP", "Intel SYCL/USM", "oneAPI", "DPC++", "MPI", "Multithreading", "Vectorization"],
+    "buildAndToolchain": ["MSVC++", "Intel ICPX/DPC++", "GCC", "CMake", "Git", "Linux", "Windows"],
+    "aiAndLLMTools": ["GitHub Copilot", "Claude Code", "Anthropic API"],
+    "webAndDevOps": ["Flask", "React", "PostgreSQL", "Docker", "Railway", "HTML/CSS"],
+    "concepts": ["OOP", "Software Architecture", "Concurrency", "Machine Learning", "Data Mining", "CI/CD", "Debugging"],
+    "professional": ["Microsoft Office", "Google Workspace", "Communication", "Technical Writing", "Organization", "Problem Solving", "Agile/Scrum", "Leadership", "Client Management", "Technical Presentations", "Mentoring", "Project Management"]
+  },
+  "entries": [
+    {
+      "section": "experience",
+      "title": "Founder & Software Engineer",
+      "company": "Eubank Technologies",
+      "start": "01/26",
+      "end": "Present",
+      "bullets": [
+        "Designed and deployed Stat_Line, a full-stack pitch analytics web application (Flask, PostgreSQL, Docker, Railway) serving NCAA baseball programs, built on client-originated requirements from Morehead State University.",
+        "Developed automated PDF report generation and Trackman CSV data processing pipelines, delivering per-pitcher performance breakdowns with custom school branding.",
+        "Engineered a multi-tenant subscription system (Stripe) supporting account creation and role-based access.",
+        "Actively demoing to prospective university clients; managing full product lifecycle from requirements through deployment.",
+        "Utilized Claude Code and GitHub Copilot to maintain development velocity across a solo full-stack codebase."
+      ],
+      "link": "https://stat-line.app"
+    },
+    {
+      "section": "experience",
+      "title": "Software Engineer Intern (.NET/C#)",
+      "company": "Team Modern",
+      "start": "06/25",
+      "end": "08/25",
+      "bullets": [
+        "Migrated and deployed 100+ C# applications to a new server environment; modernized legacy programs to .NET 4.7.2+; leveraged GitHub Copilot to accelerate refactoring throughput.",
+        "Developed and published a reusable NuGet email package (Azure Communication Services) standardizing email functionality across hundreds of enterprise applications, reducing maintenance overhead."
+      ]
+    },
+    {
+      "section": "experience",
+      "title": "IT Support Technician",
+      "company": "Morehead State University",
+      "start": "10/23",
+      "end": "05/26",
+      "bullets": [
+        "Diagnosed and resolved 10-25+ daily tickets spanning hardware, networking, and identity/access management across a diverse, non-technical user base; supported frontline triage after a university-wide cybersecurity incident.",
+        "Onboarded and technically mentored incoming helpdesk staff."
+      ]
+    },
+    {
+      "section": "experience",
+      "title": "IT Support Technician",
+      "company": "Pulaski County Schools",
+      "start": "01/23",
+      "end": "05/23",
+      "bullets": [
+        "Delivered and deployed computers, peripheral devices, and networking equipment across multiple school locations.",
+        "Cooperated with teachers, staff, and coworkers to resolve technical issues and provide support.",
+        "Installed and configured software applications on student and faculty computers."
+      ]
+    },
+    {
+      "section": "projects",
+      "title": "Parallel Matrix Library & Neural Network",
+      "category": "Capstone",
+      "description": "17× speedup on 1000×1000 matrix multiplication using Intel SYCL USM. Modular C++ neural network with Adam optimizer and cross-entropy loss, outperforming PyTorch CPU on the UCI thyroid dataset with 40% training time reduction.",
+      "tags": ["C++", "OpenMP", "SYCL"],
+      "link": "https://github.com/WarmFreezer/neural_network",
+      "linkLabel": "GitHub →"
+    },
+    {
+      "section": "projects",
+      "title": "Stat_Line",
+      "category": "Eubank Technologies",
+      "description": "Full-stack web app for Morehead State Baseball providing advanced TrackMan statistics, visualizations, and PDF reports. Marketed to other colleges.",
+      "tags": ["Python", "Flask", "JavaScript"],
+      "link": "https://stat-line.app/",
+      "linkLabel": "Stat_Line"
+    },
+    {
+      "section": "projects",
+      "title": "Email Integration NuGet Package",
+      "category": "Internship",
+      "description": "Integrated and standardized email functionality across hundreds of enterprise C# applications via a custom NuGet package using the Azure API.",
+      "tags": ["C#", "Azure Communication Services"],
+      "link": "https://www.nuget.org/packages/ModernEmail",
+      "linkLabel": "NuGet →"
+    },
+    {
+      "section": "projects",
+      "title": "Eagle Recruitment",
+      "category": "Extra-Curricular",
+      "description": "Served as technical lead for an 8-person team building a recruitment web app for the Women's Basketball Team. Pulls from the NJCAA database with an ML model in development for dynamic data interpretation.",
+      "tags": ["Python", "React", "ML"]
+    },
+    {
+      "section": "projects",
+      "title": "Savecation",
+      "category": "Academic",
+      "description": "Organized a 4-person team to build a travel-budgeting web app applying full Software Engineering principles.",
+      "tags": ["Python", "Streamlit"]
+    },
+    {
+      "section": "projects",
+      "title": "Calculator Language Parser",
+      "category": "Personal",
+      "description": "Lightweight programming language scanner and parser in under 600 lines of C++ with tokenization, syntax analysis, and error codes.",
+      "tags": ["C++"]
+    },
+    {
+      "section": "projects",
+      "title": "VEX Robotics 2018",
+      "category": "Extra-Curricular",
+      "description": "Reached the World Championship in the VEX Robotics competition. Assisted in the design and implementation of control software for the robotic system. Gained experience in teamwork, problem-solving, and applying engineering principles in a competitive environment.",
+      "tags": ["C++", "Engineering", "Robotics"]
+    },
+    {
+      "section": "leadership",
+      "title": "MSU ACM Vice President",
+      "start": "2023",
+      "end": "2026",
+      "bullets": [
+        "Supervised a team of 15 students in organizing events and managing the chapter's operations.",
+        "Managed meetings, supported chapter initiatives, improved Morehead community involvement of ACM members.",
+        "Created opportunities for professional development and networking among chapter members."
+      ]
+    },
+    {
+      "section": "awards",
+      "title": "Outstanding CS Student",
+      "organization": "MSU ACM",
+      "period": "2025 – 2026",
+      "description": "Recognized by the Morehead State University chapter of the Association for Computing Machinery as the outstanding Computer Science student of the graduating class.",
+      "tags": ["MSU ACM", "Academic"]
+    },
+    {
+      "section": "awards",
+      "title": "World Championship Qualifier",
+      "organization": "VEX Robotics",
+      "period": "2018",
+      "description": "Qualified for and competed at the VEX Robotics World Championship, contributing to robot design and C based control software under competitive pressure.",
+      "tags": ["VEX Robotics", "Engineering"]
+    },
+    {
+      "section": "awards",
+      "title": "Dean's List",
+      "organization": "Morehead State University",
+      "period": "2023 – 2026",
+      "description": "Earned Dean's List recognition across multiple semesters for maintaining a GPA above 3.5.",
+      "tags": ["Academic Honor"]
+    },
+    {
+      "section": "awards",
+      "title": "President's List",
+      "organization": "Morehead State University",
+      "period": "2023 – 2026",
+      "description": "Achieved President's List standing in recent semesters, recognizing a 4.0 semester GPA.",
+      "tags": ["Academic Honor"]
+    },
+    {
+      "section": "awards",
+      "title": "Commonwealth Scholarship",
+      "organization": "Morehead State University",
+      "period": "2023 – 2026",
+      "description": "Merit-based scholarship awarded upon enrollment in recognition of high school academic achievement — GPA and ACT score.",
+      "tags": ["Scholarship", "Merit-Based"]
+    },
+    {
+      "section": "awards",
+      "title": "Computer Science Department Award",
+      "organization": "Pulaski County High School",
+      "period": "2023",
+      "description": "Awarded for outstanding performance in the Computer Science department's classes by helping students and taking on leadership roles.",
+      "tags": ["Academic Honor"]
+    }
+  ]
+}
