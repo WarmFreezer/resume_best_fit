@@ -75,7 +75,7 @@ if average_score > 0.5:
     for experience_entry in experience:
         if experience_entry["title"] in entries_dict:
             score = entries_dict[experience_entry["title"]]
-            if score > 0.5:
+            if score > 0.4:
                 relevant_experience.append(experience_entry)
                 print(f"Experience: {experience_entry['title']}, Score: {score}")
 
@@ -260,7 +260,8 @@ if average_score > 0.5:
     add_section_heading(doc, "Skills")
     doc.add_paragraph(", ".join(relevant_skills))
 
-    out_path = f"{name.replace(' ', '_')}_Resume_{datetime.now().strftime('%Y-%m-%d')}.docx"
+    job_name = input("Enter the job name (for file naming): ")
+    out_path = f"{name.replace(' ', '_')}_Resume_{job_name}.docx"
     try:
         doc.save(out_path)
     except PermissionError:

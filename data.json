@@ -29,7 +29,7 @@
     "parallelAndHPC": ["OpenMP", "Intel SYCL/USM", "oneAPI", "DPC++", "MPI", "Multithreading", "Vectorization"],
     "buildAndToolchain": ["MSVC++", "Intel ICPX/DPC++", "GCC", "CMake", "Git", "Linux", "Windows"],
     "aiAndLLMTools": ["GitHub Copilot", "Claude Code", "Anthropic API"],
-    "webAndDevOps": ["Flask", "React", "PostgreSQL", "Docker", "Railway", "HTML/CSS"],
+    "webAndDevOps": ["Flask", "React", "PostgreSQL", "Docker", "Railway", "HTML/CSS", "REST APIs"],
     "concepts": ["OOP", "Software Architecture", "Concurrency", "Machine Learning", "Data Mining", "CI/CD", "Debugging"],
     "professional": ["Microsoft Office", "Google Workspace", "Communication", "Technical Writing", "Organization", "Problem Solving", "Agile/Scrum", "Leadership", "Client Management", "Technical Presentations", "Mentoring", "Project Management"]
   },
